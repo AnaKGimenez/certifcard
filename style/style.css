@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background:linear-gradient(90deg, rgba(71,62,37,1) 0%, rgba(158,142,93,1) 51%, rgba(223,203,145,1) 100%);
+}
+
+.container {
+    margin: 25px;
+    color: #1c1c1c;
+    background-color: #fffaec;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #2f260e;
+    padding: 25px;
+}
+
+.cabecalho {
+     display: flex;
+     justify-content: space-between;
+ }
+
+.perfil {
+    display: flex;
+}
+
+.perfil-foto {
+    border-radius: 400px;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+    margin-left: 16px;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.titulo h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tema button{
+    align-self: flex-end;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 8px 16px;
+    background: #ECF4FF;
+    border: 2px solid #0E1D2F;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 32px;
+    padding: 32px;
+    background: linear-gradient(90deg, rgba(237,214,143,1) 0%, rgba(181,157,83,1) 45%, rgba(126,98,15,1) 100%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+}
+
+.projetos-titulo {
+    color: #1c1c1c;
+    font-weight: 700;
+    font-size: 36px;
+
+}
+
+.projetos-item{
+    color: #1c1c1c;
+    list-style: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.projetos-item a{
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.codepen {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 20px;
+}
+.dark {
+    background: linear-gradient(236.85deg, #423c1b 27.26%, #756b49 96.03%);
+}
+
+.dark .container{
+    background: #1c1c1c;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    border-radius: 20px;
+    color:#ECF4FF;
+}
+
+.dark .tema button{
+    background: #1c1c1c; 
+    color: #f7f7f7;
+    border: 2px solid #f7f7f7;
+}
